@@ -1,8 +1,10 @@
 // A visitor receives a prompt upon opening the website to enter a list of comma-separated froyo flavors.
+const order = prompt(`Enter your order`, `vanilla,vanilla,vanilla,strawberry,coffee,coffee`);
 
-// They type it as a list.
+// They type it as a list. Default value above.
 
-// Their input is saved as an array. Split into an array of strings?
+// Their input is saved above as one long string in a variable called "order." Split it into an array of strings.
+const orderArray = order.split(",");
 
 // The site begins with an empty object.
 
